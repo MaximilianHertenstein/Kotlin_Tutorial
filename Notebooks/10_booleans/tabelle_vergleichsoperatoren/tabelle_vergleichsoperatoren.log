@@ -1,0 +1,909 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.13)  17 AUG 2024 18:58
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**tabelle_vergleichsoperatoren.tex
+(./tabelle_vergleichsoperatoren.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+(/usr/local/texlive/2024/texmf-dist/tex/latex/standalone/standalone.cls
+Document Class: standalone 2022/10/10 v1.3b Class to compile TeX sub-files stan
+dalone
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count190
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\sa@internal=\count191
+\c@sapage=\count192
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/standalone/standalone.cfg
+File: standalone.cfg 2022/10/10 v1.3b Default configuration file for 'standalon
+e' class
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\c@figure=\count199
+\c@table=\count266
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+\sa@box=\box52
+runsystem(xelatex  -shell-escape  -jobname "tabelle_vergleichsoperatoren" "\exp
+andafter\def\csname sa@internal@run\endcsname{1}\input{tabelle_vergleichsoperat
+oren}")...executed.
+
+\sa@read=\read2
+
+Executing command:
+pdf2svg tabelle_vergleichsoperatoren.pdf tabelle_vergleichsoperatoren.svg
+
+runsystem(pdf2svg tabelle_vergleichsoperatoren.pdf tabelle_vergleichsoperatoren
+.svg)...executed.
+
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen142
+\lightrulewidth=\dimen143
+\cmidrulewidth=\dimen144
+\belowrulesep=\dimen145
+\belowbottomsep=\dimen146
+\aboverulesep=\dimen147
+\abovetopsep=\dimen148
+\cmidrulesep=\dimen149
+\cmidrulekern=\dimen150
+\defaultaddspace=\dimen151
+\@cmidla=\count267
+\@cmidlb=\count268
+\@aboverulesep=\dimen152
+\@belowrulesep=\dimen153
+\@thisruleclass=\count269
+\@lastruleclass=\count270
+\@thisrulewidth=\dimen154
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/erewhon-math/fourier-otf.sty
+Package: fourier-otf 2024-03-01 0.66
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/unicode-math/unicode-math.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count271
+\l__pdf_internal_box=\box53
+\g__pdf_backend_annotation_int=\count272
+\g__pdf_backend_link_int=\count273
+))
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.s
+ty
+Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLa
+TeX
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-05-08 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count274
+\l__fontspec_language_int=\count275
+\l__fontspec_strnum_int=\count276
+\l__fontspec_tmp_int=\count277
+\l__fontspec_tmpa_int=\count278
+\l__fontspec_tmpb_int=\count279
+\l__fontspec_tmpc_int=\count280
+\l__fontspec_em_int=\count281
+\l__fontspec_emdef_int=\count282
+\l__fontspec_strong_int=\count283
+\l__fontspec_strongdef_int=\count284
+\l__fontspec_tmpa_dim=\dimen155
+\l__fontspec_tmpb_dim=\dimen156
+\l__fontspec_tmpc_dim=\dimen157
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen158
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen159
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count285
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count286
+\leftroot@=\count287
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count288
+\DOTSCASE@=\count289
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen160
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count290
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count291
+\dotsspace@=\muskip17
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
+\tag@help=\toks20
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
+\andhelp@=\toks21
+\eqnshift@=\dimen161
+\alignsep@=\dimen162
+\tagshift@=\dimen163
+\tagwidth@=\dimen164
+\totwidth@=\dimen165
+\lineht@=\dimen166
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\g__um_fam_int=\count297
+\g__um_fonts_used_int=\count298
+\l__um_primecount_int=\count299
+\g__um_primekern_muskip=\muskip18
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/unicode-math/unicode-math-table.t
+ex)))
+\FOTtoksT=\toks24
+\FOTtoksM=\toks25
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/fourier/fourier-orns.sty
+Package: fourier-orns 2022/02/05 2.3 fourier-ornaments package
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'Erewhon-Math.otf(0)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,BoldFont={Erewhon-Math-Bold.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Math.otf]/OT:script=math;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Math-Bold.otf]/OT:script=math;language=dflt
+;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Erewhon-Math.otf(1)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=8.5-},{Size=6.25-8.5,Font=Erewhon-Math.otf,Style=Math
+Script},{Size=-6.25,Font=Erewhon-Math.otf,Style=MathScriptScript}},BoldFont={Er
+ewhon-Math-Bold.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->"[Erewhon-Math.otf]/OT:script=math;language=dflt;"
+<6.25-8.5>"[Erewhon-Math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6.25>"[Er
+ewhon-Math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Math-Bold.otf]/OT:script=math;language=dflt
+;"
+
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Erewhon-Math.otf(1)/m/n on input lin
+e 64.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Erewhon-Math.otf(1)/b/n on input li
+ne 64.
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math-Bold scale = 1.0001.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Erewhon-Math.otf(2)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=8.5-},{Size=6.25-8.5,Font=Erewhon-Math.otf,Style=Math
+Script},{Size=-6.25,Font=Erewhon-Math.otf,Style=MathScriptScript}},BoldFont={Er
+ewhon-Math-Bold.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             8\font =6.92pt\relax \fontdimen 9\font =4.02pt\relax
+(fontspec)             \fontdimen 10\font =4.54pt\relax \fontdimen 11\font
+(fontspec)             =7.01pt\relax \fontdimen 12\font =3.52pt\relax
+(fontspec)             \fontdimen 13\font =4.0pt\relax \fontdimen 14\font
+(fontspec)             =4.0pt\relax \fontdimen 15\font =2.95pt\relax
+(fontspec)             \fontdimen 16\font =2.2pt\relax \fontdimen 17\font
+(fontspec)             =2.2pt\relax \fontdimen 18\font =3.94pt\relax
+(fontspec)             \fontdimen 19\font =0.51pt\relax \fontdimen 22\font
+(fontspec)             =2.65pt\relax \fontdimen 20\font =0pt\relax \fontdimen
+(fontspec)             21\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[1.0001]"[Erewhon-Math.otf]/OT:script=math;langu
+age=dflt;"<6.25-8.5>s*[1.0001]"[Erewhon-Math.otf]/OT:script=math;language=dflt;
++ssty=0;"<-6.25>s*[1.0001]"[Erewhon-Math.otf]/OT:script=math;language=dflt;+sst
+y=1;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.0001]"[Erewhon-Math-Bold.otf]/OT:script=math;lan
+guage=dflt;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> TU/Erewhon-Math.otf(2)/m/n on input li
+ne 64.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> TU/Erewhon-Math.otf(2)/b/n on input li
+ne 64.
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Erewhon-Math-Bold scale = 0.9999.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'Erewhon-Math.otf(3)' created for font
+(fontspec)             'Erewhon-Math.otf' with options
+(fontspec)             [BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script
+=Math,SizeFeatures={{Size=8.5-},{Size=6.25-8.5,Font=Erewhon-Math.otf,Style=Math
+Script},{Size=-6.25,Font=Erewhon-Math.otf,Style=MathScriptScript}},BoldFont={Er
+ewhon-Math-Bold.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             8\font =0.55pt\relax \fontdimen 9\font =1.04pt\relax
+(fontspec)             \fontdimen 10\font =1.57pt\relax \fontdimen 11\font
+(fontspec)             =1.88pt\relax \fontdimen 12\font =5.64pt\relax
+(fontspec)             \fontdimen 13\font =0pt\relax }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <8.5->s*[0.9999]"[Erewhon-Math.otf]/OT:script=math;langu
+age=dflt;"<6.25-8.5>s*[0.9999]"[Erewhon-Math.otf]/OT:script=math;language=dflt;
++ssty=0;"<-6.25>s*[0.9999]"[Erewhon-Math.otf]/OT:script=math;language=dflt;+sst
+y=1;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999]"[Erewhon-Math-Bold.otf]/OT:script=math;lan
+guage=dflt;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 6
+4.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> TU/Erewhon-Math.otf(3)/m/n on input li
+ne 64.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 64.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> TU/Erewhon-Math.otf(3)/b/n on input li
+ne 64.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/realscripts/realscripts.sty
+Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
+ts
+\subsupersep=\dimen167
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/erewhon/erewhon.fontspec)
+
+Package fontspec Info: 
+(fontspec)             Font family 'erewhon(0)' created for font 'erewhon'
+(fontspec)             with options [Ligatures=TeX,Extension =
+(fontspec)             .otf,SlantedFont =
+(fontspec)             Erewhon-RegularSlanted,BoldSlantedFont =
+(fontspec)             Erewhon-BoldSlanted,BoldFont = Erewhon-Bold,ItalicFont
+(fontspec)             = Erewhon-Italic,BoldItalicFont =
+(fontspec)             Erewhon-BoldItalic,UprightFont = Erewhon-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;m
+apping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;+
+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;mapp
+ing=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;+smc
+p;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;ma
+pping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;+s
+mcp;mapping=tex-text;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language
+=dflt;mapping=tex-text;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language
+=dflt;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dfl
+t;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dfl
+t;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=df
+lt;mapping=tex-text;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=df
+lt;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'erewhon(1)' created for font 'erewhon'
+(fontspec)             with options [Extension = .otf,SlantedFont =
+(fontspec)             Erewhon-RegularSlanted,BoldSlantedFont =
+(fontspec)             Erewhon-BoldSlanted,BoldFont = Erewhon-Bold,ItalicFont
+(fontspec)             = Erewhon-Italic,BoldItalicFont =
+(fontspec)             Erewhon-BoldItalic,UprightFont = Erewhon-Regular].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Regular.otf]/OT:script=latn;language=dflt;+
+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Bold.otf]/OT:script=latn;language=dflt;+smc
+p;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-Italic.otf]/OT:script=latn;language=dflt;+s
+mcp;"
+(fontspec)             - 'slanted' (m/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language
+=dflt;"
+(fontspec)             - 'slanted small caps'  (m/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-RegularSlanted.otf]/OT:script=latn;language
+=dflt;+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dfl
+t;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldItalic.otf]/OT:script=latn;language=dfl
+t;+smcp;"
+(fontspec)             - 'bold slanted' (b/sl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=df
+lt;"
+(fontspec)             - 'bold slanted small caps'  (b/scsl) with NFSS spec.:
+(fontspec)             <->"[Erewhon-BoldSlanted.otf]/OT:script=latn;language=df
+lt;+smcp;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  TU/Erewhon-Math.otf(1)/m/n --> TU/erewhon(1)/m/n on inp
+ut line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/erewhon(1)/m/it on input line 75.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/erewhon(1)/b/n on input line 75.
+
+Package fontspec Info: 
+(fontspec)             Font family 'FourierOrns-Regular.otf(0)' created for
+(fontspec)             font 'FourierOrns-Regular.otf' with options [BoldFont =
+(fontspec)             FourierOrns-Regular.otf,ItalicFont =
+(fontspec)             FourierOrns-Regular.otf,BoldItalicFont =
+(fontspec)             FourierOrns-Regular.otf].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"[FourierOrns-Regular.otf]/OT:language=dflt;"
+
+)
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Ubuntu Mono Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular/I scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular/BI scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'UbuntuMonoRegular(0)' created for font
+(fontspec)             'Ubuntu Mono Regular' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space,Scale=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[0.9]"Ubuntu
+(fontspec)             Mono Regular/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[0.9]"Ubuntu
+(fontspec)             Mono Regular/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"Ubuntu Mono
+(fontspec)             Regular/BI/OT:script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "Ubuntu Mono Regular/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular/I scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Ubuntu Mono Regular/BI scale = 0.9.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'UbuntuMonoRegular(1)' created for font
+(fontspec)             'Ubuntu Mono Regular' with options [Scale=0.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[0.9]"Ubuntu
+(fontspec)             Mono Regular/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[0.9]"Ubuntu
+(fontspec)             Mono Regular/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[0.9]"Ubuntu Mono
+(fontspec)             Regular/BI/OT:script=latn;language=dflt;"
+
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/UbuntuMonoRegular(1)/m/n on input l
+ine 8.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/UbuntuMonoRegular(1)/b/n on input l
+ine 8.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2024/05/16 v1.7.0 fvextra - extensions and patches for fancyvr
+b
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count300
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count301
+\FV@InFile=\read3
+\FV@TabBox=\box56
+\c@FancyVerbLine=\count302
+\FV@StepNumber=\count303
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
+\linenopenalty=\count304
+\output=\toks26
+\linenoprevgraf=\count305
+\linenumbersep=\dimen168
+\linenumberwidth=\dimen169
+\c@linenumber=\count306
+\c@pagewiselinenumber=\count307
+\c@LN@truepage=\count308
+\c@internallinenumber=\count309
+\c@internallinenumbers=\count310
+\quotelinenumbersep=\dimen170
+\bframerule=\dimen171
+\bframesep=\dimen172
+\bframebox=\box57
+\linenoamsmath@ams@eqpen=\count311
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count312
+\c@FancyVerbBufferIndex=\count313
+\c@FancyVerbBufferLength=\count314
+\c@FancyVerbBufferLine=\count315
+\c@FV@oldbufferlength=\count316
+\c@FV@TrueTabGroupLevel=\count317
+\c@FV@TrueTabCounter=\count318
+\FV@TabBox@Group=\box58
+\FV@TmpLength=\skip54
+\c@FV@HighlightLinesStart=\count319
+\c@FV@HighlightLinesStop=\count320
+\FV@LoopCount=\count321
+\FV@NCharsBox=\box59
+\FV@BreakIndent=\dimen173
+\FV@BreakIndentNChars=\count322
+\FV@BreakSymbolSepLeft=\dimen174
+\FV@BreakSymbolSepLeftNChars=\count323
+\FV@BreakSymbolSepRight=\dimen175
+\FV@BreakSymbolSepRightNChars=\count324
+\FV@BreakSymbolIndentLeft=\dimen176
+\FV@BreakSymbolIndentLeftNChars=\count325
+\FV@BreakSymbolIndentRight=\dimen177
+\FV@BreakSymbolIndentRightNChars=\count326
+\c@FancyVerbLineBreakLast=\count327
+\FV@LineBox=\box60
+\FV@LineIndentBox=\box61
+\c@FV@BreakBufferDepth=\count328
+\FV@LineWidth=\dimen178
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+runsystem(uname -s > "tabelle_vergleichsoperatoren.w18")...executed.
+
+
+(./tabelle_vergleichsoperatoren.w18)
+runsystem(rm -- "tabelle_vergleichsoperatoren.w18")...executed.
+
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count329
+\xs_countb=\count330
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count331
+\float@exts=\toks27
+\float@box=\box62
+\@float@everytoks=\toks28
+\@floatcapt=\box63
+)
+\minted@appexistsfile=\read4
+\minted@bgbox=\box64
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count332
+\c@minted@pygmentizecounter=\count333
+\@float@every@listing=\toks29
+\c@listing=\count334
+)
+runsystem(mkdir -p _minted-tabelle_vergleichsoperatoren)...executed.
+
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+runsystem(command -v pygmentize && touch tabelle_vergleichsoperatoren.aex)...ex
+ecuted.
+
+runsystem(rm tabelle_vergleichsoperatoren.aex)...executed.
+
+
+(./tabelle_vergleichsoperatoren.aux)
+\openout1 = `tabelle_vergleichsoperatoren.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 11.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 11.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00107pt on input line 13.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 13.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(2)/m/n' will be
+(Font)              scaled to size 5.50058pt on input line 13.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 13.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 13.
+LaTeX Font Info:    Font shape `TU/Erewhon-Math.otf(3)/m/n' will be
+(Font)              scaled to size 5.4994pt on input line 13.
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+
+(./_minted-tabelle_vergleichsoperatoren/default.pygstyle)
+(./_minted-tabelle_vergleichsoperatoren/CA0B1C26E4FE93007BCDCBB8E774884D1AF26EA
+34B419CDDF066A51E64C0314D.pygtex
+LaTeX Font Info:    Font shape `TU/UbuntuMonoRegular(0)/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 3.
+)
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+
+(./_minted-tabelle_vergleichsoperatoren/A65D5ACC20AD1F6C138540681B6C334C1AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+
+(./_minted-tabelle_vergleichsoperatoren/467666C12F45D4E6B3E37CCCBCB6E1F81AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+
+(./_minted-tabelle_vergleichsoperatoren/EE9F11505D0160B459A18BFC992CE4FC1AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+
+(./_minted-tabelle_vergleichsoperatoren/5B41510F6FCF2140EDE26C7FD80B42F91AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+
+(./_minted-tabelle_vergleichsoperatoren/E7FB8B0240FDE08A2FAA4C55C9C740A91AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+
+[1
+
+] (./tabelle_vergleichsoperatoren.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+runsystem(rm tabelle_vergleichsoperatoren.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13093 strings out of 476150
+ 279408 string characters out of 5783520
+ 1923557 words of memory out of 5000000
+ 35474 multiletter control sequences out of 15000+600000
+ 559436 words of font info for 71 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 105i,7n,130p,328b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on tabelle_vergleichsoperatoren.pdf (1 page).
+6EA34B419CDDF066A51E64C0314D.pygtex tabelle_vergleichsoperatoren.
+pyg)...executed.
+
+
+(./_minted-tabelle_vergleichsoperatoren/5B41510F6FCF2140EDE26C7FD80B42F91AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+\openout4 = `tabelle_vergleichsoperatoren.pyg'.
+
+runsystem(pygmentize -l 'kotlin' -f latex -P commandprefix=PYG -F tokenmerge -P
+ stripnl='False' -o _minted-tabelle_vergleichsoperatoren/E7FB8B0240FDE08A2FAA4C
+55C9C740A91AF26EA34B419CDDF066A51E64C0314D.pygtex tabelle_vergleichsoperatoren.
+pyg)...executed.
+
+
+(./_minted-tabelle_vergleichsoperatoren/E7FB8B0240FDE08A2FAA4C55C9C740A91AF26EA
+34B419CDDF066A51E64C0314D.pygtex)
+
+[1
+
+] (./tabelle_vergleichsoperatoren.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+runsystem(rm tabelle_vergleichsoperatoren.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 13082 strings out of 476150
+ 279257 string characters out of 5783520
+ 1923557 words of memory out of 5000000
+ 35464 multiletter control sequences out of 15000+600000
+ 559436 words of font info for 71 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 109i,7n,133p,384b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on tabelle_vergleichsoperatoren.pdf (1 page).

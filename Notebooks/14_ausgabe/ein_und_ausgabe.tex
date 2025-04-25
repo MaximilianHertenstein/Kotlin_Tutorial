@@ -1,0 +1,374 @@
+\phantomsection\label{7531f3b9a5fdae5a}
+\section{Interaktive Programme}\label{interaktive-programme}
+
+\subsection{Programme außerhalb von
+Notebooks}\label{programme-auuxdferhalb-von-notebooks}
+
+Wir haben bis jetzt all unseren Code in Notebookblöcken geschrieben. Bei
+der Ausführung eines Blocks werden alle \emph{Statements} in diesem
+Block ausgeführt. Wenn das letzte Statement ein Ausdruck ist, wird
+dessen Wert angezeigt.
+
+\phantomsection\label{b9457421e12f0f57}
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{5} \OperatorTok{+} \DecValTok{3}
+\DecValTok{2} \OperatorTok{*} \DecValTok{7}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+14
+\end{verbatim}
+
+\phantomsection\label{89dbf98ac5d54ed9}
+Die Ausführung von Code außerhalb von Notebooks funktioniert anders. Ein
+solches Programm braucht immer eine Funktion mit dem Namen
+\texttt{main}. Diese Funktion wird bei der Ausführung des Programms
+ausgeführt. Es ist möglich neben dieser Funktion noch weitere Funktionen
+(und Variablen) zu definieren. Diese werden nur ausgeführt, wenn sie in
+der \texttt{main}-Funktion verwendet werden.
+
+\phantomsection\label{184f1507c5a9b3ae}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fun} \FunctionTok{main}\OperatorTok{()} \OperatorTok{\{}
+    \CommentTok{//Statements, die }
+    \CommentTok{//ausgeführt werden}
+\OperatorTok{\}}
+
+\CommentTok{// Hilfsfunktionen und Variablen}
+\end{Highlighting}
+\end{Shaded}
+
+\phantomsection\label{48fc2b62-4bcf-4a55-a7a6-2b6114d122b2}
+\subsection{Motivation}\label{motivation}
+
+Der Zweck der Funktionen (bis auf Tests), die wir bisher geschrieben
+haben, war immer die Berechnung und \emph{Rückgabe} eines \emph{Werts}.
+
+\phantomsection\label{c6bb0c21-d429-4607-bd62-94a626825738}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fun} \FunctionTok{greetBavarian}\OperatorTok{(}\VariableTok{name}\OperatorTok{:} \DataTypeTok{String}\OperatorTok{):} \DataTypeTok{String} \OperatorTok{\{}
+    \KeywordTok{return} \StringTok{"Servus "} \OperatorTok{+}\NormalTok{ name}
+\OperatorTok{\}} 
+\end{Highlighting}
+\end{Shaded}
+
+\phantomsection\label{80f0e4a7-fd42-49fa-a595-fe53ae6a807d}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{greetBavarian}\OperatorTok{(}\StringTok{"Ada"}\OperatorTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Servus Ada
+\end{verbatim}
+
+\phantomsection\label{5f1dc148}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{greetBavarian}\OperatorTok{(}\StringTok{"Grace"}\OperatorTok{)} \OperatorTok{+} \StringTok{"!"}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Servus Grace!
+\end{verbatim}
+
+\phantomsection\label{488f80c3-82d6-4ae4-b393-ff0d5cca2d4a}
+Wenn wir jedoch eine dieser Funktionen in einem Programm außerhalb eines
+Notebooks aufrufen, hat das für den Benutzer keinen sichtbaren Effekt.
+Der Funktionsaufruf/\emph{Ausdruck} wird ausgewertet und der Interpreter
+fährt mit der nächsten Zeile fort.
+
+\phantomsection\label{2a4f7b16}
+\href{https://pl.kotl.in/aydBQ-O0G}{Klicke hier}
+
+\phantomsection\label{fad3c21c30dab5de}
+Die Benutzerinnen eines Programms wollen aber nicht Funktionsaufrufe in
+die Shell eingegeben. Sie wollen einfach ein Skript/Programm
+ausführen/starten und dann etwas Nützliches angezeigt bekommen und unter
+Umständen etwas eingeben. In diesem Kapitel wollen wir uns anschauen,
+wie das funktioniert.
+
+\subsection{Ausgabe}\label{ausgabe}
+
+Um Werte bei der Ausführung eines Skripts anzuzeigen, können wir die
+Funktion \texttt{println} nutzen. Im Gegensatz zu allen Funktionen, die
+wir vorher gesehen haben, hat diese keinen interessanten Rückgabewert.
+
+Der Rückgabewert ist immer das Element \texttt{Unit}. Dies ist das
+einzige Element mit dem Typ \texttt{Unit}. Darin ist keinerlei
+Information gespeichert und es gibt keine Operatoren, die mit
+\texttt{Unit} rechnen können.
+
+Die Funktion \texttt{println} ist trotzdem sehr nützlich, weil sie ihr
+Argument an der Konsole ausgibt.
+
+\phantomsection\label{e4e5a9d78dbabc2d}
+\href{https://pl.kotl.in/vVkXn2j-h}{Klicke hier}
+
+\phantomsection\label{188334ff-3fac-4f2e-affb-ae304b150eb0}
+
+\phantomsection\label{6c2bdf42}
+\subsection{Unterschiede zwischen Rückgabe und
+Ausgabe}\label{unterschiede-zwischen-ruxfcckgabe-und-ausgabe}
+
+Es ist wichtig, sich den Unterschied zwischen der Rückgabe mit
+\texttt{return} und der Ausgabe mit \texttt{println} klarzumachen. Ein
+zurückgegebener \emph{Wert} kann in einer Rechnung verwendet werden. Bei
+der Auswertung in einem Programm wird er aber nicht automatisch
+angezeigt.
+
+Mit der Funktion \texttt{println} können wir Werte an der Konsole
+ausgegeben. Diese Funktion gibt den Wert aber \textbf{nicht} zurück. Die
+Funktionen \texttt{greetBavarian} und \texttt{greetBavarianPrint} sehen
+deshalb sehr ähnlich aus. Sie sind aber trotzdem sehr unterschiedlich.
+
+\phantomsection\label{1a5a83bb264ebe17}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fun} \FunctionTok{greetBavarian}\OperatorTok{(}\VariableTok{name}\OperatorTok{:} \DataTypeTok{String}\OperatorTok{):} \DataTypeTok{String} \OperatorTok{\{}
+    \KeywordTok{return} \StringTok{"Servus "} \OperatorTok{+}\NormalTok{ name}
+\OperatorTok{\}}
+
+\KeywordTok{fun} \FunctionTok{greetBavarianPrint}\OperatorTok{(}\VariableTok{name}\OperatorTok{:} \DataTypeTok{String}\OperatorTok{):} \DataTypeTok{Unit} \OperatorTok{\{}
+\NormalTok{    println}\OperatorTok{(}\StringTok{"Servus, "}  \OperatorTok{+}\NormalTok{ name}\OperatorTok{)}
+\OperatorTok{\}} 
+\end{Highlighting}
+\end{Shaded}
+
+\phantomsection\label{f5b9d0e6-d957-4b8f-85db-ae47ad655cfa}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{greetBavarianPrint}\OperatorTok{(}\StringTok{"Ada"}\OperatorTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Servus, Ada
+\end{verbatim}
+
+\phantomsection\label{af4bf4b8-45c3-433e-b275-45d5034a8cea}
+\texttt{Servus\ Ada} ist ein \emph{Wert}, der von der Funktion
+\texttt{greetBavarianPrint} ausgegeben wurde. Dies ist auch bei einem
+normalen Programmablauf sichtbar.
+
+\href{https://pl.kotl.in/Ji1uTRnRD}{Klicke hier}
+
+Die Rückgabe bei diesem Funktionsaufruf ist kein \texttt{String} sondern
+\texttt{Unit}. Dies wird deutlich, wenn man den Funktionsaufruf in einem
+Ausdruck verwendet.
+
+\phantomsection\label{4bdfb012-27d3-412a-b557-2323d8329a91}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{greetBavarianPrint}\OperatorTok{(}\StringTok{"Ada"}\OperatorTok{)} \OperatorTok{+} \StringTok{"!"}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+org.jetbrains.kotlinx.jupyter.repl.impl.JupyterCompilerImpl.compileSync(JupyterCompilerImpl.kt:201)
+org.jetbrains.kotlinx.jupyter.repl.impl.InternalEvaluatorImpl.eval(InternalEvaluatorImpl.kt:126)
+org.jetbrains.kotlinx.jupyter.repl.impl.CellExecutorImpl$execute$1$result$1.invoke(CellExecutorImpl.kt:80)
+org.jetbrains.kotlinx.jupyter.repl.impl.CellExecutorImpl$execute$1$result$1.invoke(CellExecutorImpl.kt:78)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl.withHost(ReplForJupyterImpl.kt:762)
+org.jetbrains.kotlinx.jupyter.repl.impl.CellExecutorImpl.execute-L4Nmkdk(CellExecutorImpl.kt:78)
+org.jetbrains.kotlinx.jupyter.repl.execution.CellExecutor$DefaultImpls.execute-L4Nmkdk$default(CellExecutor.kt:13)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl.evaluateUserCode-wNURfNM(ReplForJupyterImpl.kt:585)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl.access$evaluateUserCode-wNURfNM(ReplForJupyterImpl.kt:138)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl$evalEx$1.invoke(ReplForJupyterImpl.kt:442)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl$evalEx$1.invoke(ReplForJupyterImpl.kt:439)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl.withEvalContext(ReplForJupyterImpl.kt:420)
+org.jetbrains.kotlinx.jupyter.repl.impl.ReplForJupyterImpl.evalEx(ReplForJupyterImpl.kt:439)
+org.jetbrains.kotlinx.jupyter.messaging.IdeCompatibleMessageRequestProcessor$processExecuteRequest$1$response$1$1.invoke(IdeCompatibleMessageRequestProcessor.kt:136)
+org.jetbrains.kotlinx.jupyter.messaging.IdeCompatibleMessageRequestProcessor$processExecuteRequest$1$response$1$1.invoke(IdeCompatibleMessageRequestProcessor.kt:135)
+org.jetbrains.kotlinx.jupyter.execution.JupyterExecutorImpl$Task.execute(JupyterExecutorImpl.kt:42)
+org.jetbrains.kotlinx.jupyter.execution.JupyterExecutorImpl$executorThread$1.invoke(JupyterExecutorImpl.kt:82)
+org.jetbrains.kotlinx.jupyter.execution.JupyterExecutorImpl$executorThread$1.invoke(JupyterExecutorImpl.kt:80)
+kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+\end{verbatim}
+
+\phantomsection\label{37b58924-7303-4e92-8ee8-86c0d6895a2d}
+Die Funktion \texttt{greetBavarianPrint} gibt \texttt{Servus\ Ada} aus.
+Sie gibt aber den \emph{Wert} \texttt{Unit} zurück. Die Fehlermeldung
+sagt aus, dass das \texttt{Unit} und \texttt{"!"} nicht addiert werden
+können.
+
+Wenn wir an dieser Stelle die Funktion \texttt{greetBavarian} nutzen,
+tritt kein Fehler auf, da diese Funktion einen \emph{String} zurückgibt.
+
+\phantomsection\label{9d9e1c71-6578-4ac0-aaf8-3a4f973dfb16}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{greetBavarian}\OperatorTok{(}\StringTok{"Ada"}\OperatorTok{)} \OperatorTok{+} \StringTok{"!"}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Servus Ada!
+\end{verbatim}
+
+\phantomsection\label{46e79931-bb59-41d2-a4b5-2bf0cb95af04}
+Der Unterschied wird auch deutlich, wenn man das Ergebnis dieser
+Funktionen in einer \emph{Variablen} speichert.
+
+\phantomsection\label{db9e47cc-9189-4dbd-8099-068e84e39a3d}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{val} \VariableTok{x} \OperatorTok{=}\NormalTok{ greetBavarian}\OperatorTok{(}\StringTok{"Ada"}\OperatorTok{)}
+\NormalTok{x}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Servus Ada
+\end{verbatim}
+
+\phantomsection\label{63b33bac-000a-4967-9de8-e284178ee99d}
+Bei der Zuweisung in der ersten Zeile wird der \emph{Wert} von
+\texttt{greetBavarian("Ada")} zwar berechnet und der \emph{Variablen}
+zugewiesen. Es ist aber nichts zu sehen. Der \emph{Wert} der
+\emph{Variablen} \texttt{x} ist \texttt{"Servus\ Ada"} und wird deshalb
+nach der zweiten Zeile angezeigt.
+
+Bei der Verwendung von \texttt{greetBavarianPrint} ist etwas völlig
+anderes zu beobachten.
+
+\phantomsection\label{03dd494c-89ab-4551-b43b-a62c7863efb2}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{val} \VariableTok{x} \OperatorTok{=}\NormalTok{ greetBavarianPrint}\OperatorTok{(}\StringTok{"Ada"}\OperatorTok{)}
+\NormalTok{x}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Servus, Ada
+\end{verbatim}
+
+\phantomsection\label{b54f391c-6428-4067-acdc-cbf77f7e2deb}
+Bei der Auswertung der rechten Seite der ersten Zeile wird der
+\emph{Wert} zwar angezeigt. Da der \emph{Rückgabewert} \texttt{Unit}
+ist, wird in der \emph{Variablen} auch nur dieser \emph{Wert}
+gespeichert. Dieser wird nach der letzten Zeile nicht angezeigt.
+
+Der letzte wichtige Unterschied ist, dass bei der Ausführung eines
+\texttt{return}-\emph{Statements} die Funktion, die dieses beinhaltet,
+verlassen wird.
+
+\phantomsection\label{2b8b6664-d1e5-453c-a90c-8bc1d388a77a}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fun} \FunctionTok{helloAndGoodbyeWrong}\OperatorTok{():} \DataTypeTok{String} \OperatorTok{\{}
+    \KeywordTok{return} \StringTok{"Hello"}
+\NormalTok{    println}\OperatorTok{(}\StringTok{"Goodbye"}\OperatorTok{)}
+\OperatorTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\phantomsection\label{e1084a90-ae96-4115-9622-1ed3db973db9}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{helloAndGoodbyeWrong}\OperatorTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Hello
+\end{verbatim}
+
+\phantomsection\label{3ed10595-09ec-4081-87a5-f36ed69d0c33}
+Bei Aufrufen von \texttt{println} ist dies nicht der Fall.
+
+\phantomsection\label{c4503fb8-877d-4241-a84c-f5cfb258ec85}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fun} \FunctionTok{printHelloAndGoodbye}\OperatorTok{()} \OperatorTok{:} \DataTypeTok{Unit}\OperatorTok{\{}
+\NormalTok{    println}\OperatorTok{(}\StringTok{"Hello"}\OperatorTok{)}
+\NormalTok{    println}\OperatorTok{(}\StringTok{"Goodbye"}\OperatorTok{)}
+\OperatorTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\phantomsection\label{c5b79448-bf94-4e05-82cc-2d72ef953d24}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{printHelloAndGoodbye}\OperatorTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Hello
+Goodbye
+\end{verbatim}
+
+\phantomsection\label{dceed8ad-8d43-42b5-ba88-96c71a14a1eb}
+\subsection{Eingabe}\label{eingabe}
+
+Mit der Funktion \texttt{readln} können Benutzereingaben eingelesen
+werden. Die Funktion hat keine \emph{Parameter}. Beim Aufruf wird auf
+die Eingabe des benutzers gewartet. Dieser muss seine Eingabe mit Enter
+bestätigen. Die Eingabe wird als \emph{String} zurückgegeben.
+
+\phantomsection\label{456da678}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{readln}\OperatorTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Grace
+\end{verbatim}
+
+\phantomsection\label{2d1b902a}
+Es ist oft sinnvoll diesen \emph{Rückgabewert} in einer \emph{Variablen}
+zu speichern, um ihn später verwenden zu können.
+
+\phantomsection\label{b6d8ce43}
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{println}\OperatorTok{(}\StringTok{"Wie heißt du?"}\OperatorTok{)}
+\KeywordTok{val} \VariableTok{name} \OperatorTok{=}\NormalTok{ readln}\OperatorTok{()}
+\NormalTok{name}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Wie heißt du
+\end{verbatim}
+
+\begin{verbatim}
+Grace
+\end{verbatim}
+
+\phantomsection\label{1786c834}
+\subsection{Kombination von Ein- und
+Ausgabe}\label{kombination-von-ein--und-ausgabe}
+
+Wir können nun interaktive Programme schrieben, in denen wir Eingabe,
+Verarbeitung und Ausgabe kombinieren.
+
+\phantomsection\label{39b7e342-1083-4272-a839-d97d59230afe}
+\begin{Shaded}
+\begin{Highlighting}[]
+\KeywordTok{fun} \FunctionTok{greetBavarianIO}\OperatorTok{():} \DataTypeTok{Unit}\OperatorTok{\{}
+\NormalTok{    println}\OperatorTok{(}\StringTok{"Wie heißt du?"}\OperatorTok{)}
+    \KeywordTok{val} \VariableTok{name} \OperatorTok{=}\NormalTok{ readln}\OperatorTok{()}
+\NormalTok{    println}\OperatorTok{(}\NormalTok{greetBavarian}\OperatorTok{(}\NormalTok{name}\OperatorTok{))}
+\OperatorTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\phantomsection\label{7f7cacfa-c34a-407f-88bb-6c6808d72a04}
+Die Funktionen \texttt{println} und \texttt{readln} sorgen dafür, dass
+auch, wenn die Funktion in einem normalen Programm aufgerufen wird,
+etwas zu sehen ist.
+
+\phantomsection\label{e3239b23-7264-41d3-9d0c-43ae82ce3d6f}
+Der Benutzer des Programms muss das Programm nur starten, um mit ihm zu
+interagieren. Er muss selbst aber nichts über Programmierung wissen.
