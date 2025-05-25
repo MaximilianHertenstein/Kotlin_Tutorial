@@ -49,3 +49,4 @@ fun price(amount: Int, pricePerUnit: Int, discount: Boolean): Int =
         reducedPricePerUnit * amount
     } else pricePerUnit * pricePerUnit
 
+val showNumber2: ((Int) -> Unit)  = {x: Int -> println(x)}
